@@ -6,6 +6,8 @@ An example on how to write asynchronous tests using async/await (thanks babel :D
 Spoiler: tests and code are written in ES6/7 :).
 Spoiler 2: you can also use this with other testing frameworks ;).
 
+[![Build Status](https://travis-ci.org/UXtemple/async-await-tape-example.svg)](https://travis-ci.org/UXtemple/async-await-tape-example)
+
 ## The code
 - [index-test.js](index-test.js)
 - [index.js](index.js)

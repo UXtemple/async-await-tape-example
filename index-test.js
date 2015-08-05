@@ -1,12 +1,12 @@
 import { doSomethingAsync, throwSomethingAsync } from './index';
 import test from 'tape';
 
-test('#doSomethingAsync', async function(t) {
+test('#doSomethingAsync', async t => {
   t.equal(await doSomethingAsync(), 'async!');
   t.end();
 });
 
-test('#throwSomethingAsync', async function(t) {
+test('#throwSomethingAsync', async t => {
   try {
     await throwSomethingAsync();
   } catch(err) {
