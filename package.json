@@ -1,0 +1,16 @@
+{
+  "name": "async-await-tape-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "An example on how to write asynchronous tests using async/await (thanks babel :D) and tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node index-test.js"
+  },
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "tape": "^4.0.2"
+  }
+}
