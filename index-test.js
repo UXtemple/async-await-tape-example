@@ -2,10 +2,7 @@ import { doSomethingAsync, throwSomethingAsync } from './index';
 import test from 'tape';
 
 test('#doSomethingAsync', async function(t) {
-  try {
-    t.equal(await doSomethingAsync(), 'async!');
-  } catch(err) {
-  }
+  t.equal(await doSomethingAsync(), 'async!');
   t.end();
 });
 
