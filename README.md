@@ -15,7 +15,7 @@ Spoiler 2: you can also use this with other testing frameworks ;).
 ## Stuff to read
 For more on async/await, read
 [Taming the asynchronous beast with ES7](http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html)
-from [Nolan Watson](https://twitter.com/nolanlawson), it's an amazing write up on the subject!
+from [Nolan Lawson](https://twitter.com/nolanlawson), it's an amazing write up on the subject!
 
 For more on tape, [see the main repo](https://github.com/substack/tape) and [this (perhaps very opinionated) blog
 post](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4).
